@@ -1,0 +1,92 @@
+.document-upload-container {
+  padding: 2%; 
+  max-width: 90%; 
+  margin-top: 10%;
+  height: 100%; 
+  position: relative; 
+  background-size: cover;
+  border-radius: 0.5rem;
+  transition: opacity 0.4s cubic-bezier(.25, .8, .25, 1), transform 0.4s cubic-bezier(.25, .8, .25, 1), box-shadow 0.4s cubic-bezier(.25, .8, .25, 1);
+  z-index: 1000;
+  width: 90%; 
+  margin-left: 15%;
+}
+
+.document-upload-title {
+  font-size: 1.5rem; 
+  margin-top: 0; 
+  text-align: center;
+  color: #fff;
+  margin-left: -12%;
+}
+
+.document-upload-form {
+  border: 0.1rem solid #ddd; 
+  border-radius: 0.5rem; 
+  padding: 2%; 
+  margin-top: -10%; 
+  max-width: 70%;
+  height: 50%;
+  backdrop-filter: blur(0.6rem); 
+  -webkit-backdrop-filter: blur(0.6rem); 
+  background-color: transparent;
+}
+
+.document-upload-input {
+  padding: 1%; 
+  border: 0.1rem solid #ddd; 
+  border-radius: 0.5rem;
+  width: 100%; 
+}
+
+.document-upload-button {
+  padding: 1% 2%; 
+  border: none;
+  border-radius: 0.5rem; 
+  font-size: 1rem; 
+  width: 50%; 
+  display: block; 
+  cursor: pointer;
+  background-color:transparent;
+  color: #fff;
+  margin-top: 3%;
+  margin-left: 25%;
+  border: 0.1rem solid #ddd; 
+}
+
+.document-upload-button:hover {
+  background-color: #151616;
+}
+
+.error {
+  color: red;
+  margin-top: 1%; 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5%; 
+}
+
+.lable1 {
+  margin-bottom: -0.5rem; 
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 150%; 
+  padding: 1%;
+  margin-left: 0%;
+}
+@media (max-width: 768px) {
+  .document-upload-title {
+    font-size: 1.2rem; 
+  }
+
+  .document-upload-button {
+    font-size: 0.875rem; 
+  }
+
+  label {
+    font-size: 0.875rem; 
+  }
+}

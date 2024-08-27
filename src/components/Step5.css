@@ -1,0 +1,76 @@
+/* Step5.css */
+
+.completion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f0f0f0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 50%;
+  margin: auto;
+  margin-top: 10%;
+  background-color: white;
+  /* position: relative; */
+  z-index: 10;
+}
+
+.completion-container h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.completion-container p {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .completion-container {
+    max-width: 70%;
+    padding: 1.5rem;
+  }
+
+  .completion-container h2 {
+    font-size: 1.75rem;
+  }
+
+  .completion-container p {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .completion-container {
+    max-width: 80%;
+    padding: 1.5rem;
+  }
+
+  .completion-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .completion-container p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .completion-container {
+    max-width: 90%;
+    padding: 1rem;
+  }
+
+  .completion-container h2 {
+    font-size: 1.25rem;
+  }
+
+  .completion-container p {
+    font-size: 0.875rem;
+  }
+}
